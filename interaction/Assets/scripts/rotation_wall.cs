@@ -4,16 +4,13 @@ using UnityEngine;
 
 public class rotation_wall : MonoBehaviour
 {
-    private Gyroscope m_gyro;
-
-    private void Start()
+    void Start()
     {
         Input.gyro.enabled = true;
     }
 
     void Update()
     {
-        m_gyro = Input.gyro;
-        transform.rotation = m_gyro.attitude;
+        transform.rotation = Quaternion.Euler(0, 0, -180) * Quaternion.Euler(90, 0, 0) * Input.gyro.attitude * Quaternion.Euler(0, 0, -180);
     }
 }

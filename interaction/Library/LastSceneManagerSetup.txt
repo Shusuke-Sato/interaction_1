@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/Scenes/dungeon_ver1.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+>>>>>>> 75d0f97519cd0c5b82681779a4baf4f40c868989
