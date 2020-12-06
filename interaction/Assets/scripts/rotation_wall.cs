@@ -11,6 +11,8 @@ public class rotation_wall : MonoBehaviour
 
     void Update()
     {
-        transform.rotation = Quaternion.Euler(0, 0, -180) * Quaternion.Euler(90, 0, 0) * Input.gyro.attitude * Quaternion.Euler(0, 0, -180);
+        var rot = Input.gyro.attitude;
+        var rot2 = new Quaternion(-rot.x,-rot.z,-rot.y,rot.w);
+        transform.rotation = rot2;
     }
 }
