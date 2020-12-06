@@ -21,4 +21,9 @@ public class GameSystem : MonoBehaviour
     {
         SceneManager.LoadScene("dungeon_ver1");
     }
+    public void EndGame()
+    {
+        SceneManager.LoadScene("Title");
+    }
+
 }
