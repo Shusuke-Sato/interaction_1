@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class rotation_wall : MonoBehaviour
-{ 
-
+{
     void Start()
     {
         Input.gyro.enabled = true;
@@ -12,10 +11,8 @@ public class rotation_wall : MonoBehaviour
 
     void Update()
     {
-        Quaternion gattitude = Input.gyro.attitude;
-        gattitude.x *= -1;
-        gattitude.y *= -1;
-        transform.rotation =
-            Quaternion.Euler(90, 0, 0) * gattitude;
+        var rot = Input.gyro.attitude;
+        var rot2 = new Quaternion(-rot.x,-rot.z,-rot.y,rot.w);
+        transform.rotation = rot2;
     }
 }
