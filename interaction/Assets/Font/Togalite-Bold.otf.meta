@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 1f08b1ceac99ea94f9a88afc450c4549
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Togalite
+  fontNames:
+  - Togalite
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7ccd0dd1fea035e489185b664e7317b5, type: 3}
+  - {fileID: 12800000, guid: 4c80b0d2b6a2ec04ab9c7409e02d5573, type: 3}
+  - {fileID: 12800000, guid: d4da3273231e5894c9ea8fd929e145b5, type: 3}
+  - {fileID: 12800000, guid: e38994b87fffe554bac48a36029da100, type: 3}
+  - {fileID: 12800000, guid: b80d418cc635dbe45901d4943d3d9be8, type: 3}
+  - {fileID: 12800000, guid: 62a266cdbbfe7e648b220e7a7415b93e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
