@@ -19,11 +19,15 @@ public class GameSystem : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("dungeon_ver1");
+        SceneManager.LoadScene("Tutorial");
     }
     public void EndGame()
     {
         SceneManager.LoadScene("Title");
+    }
+    public void DoneTutorial()
+    {
+        SceneManager.LoadScene("dungeon_ver1");
     }
 
 }
