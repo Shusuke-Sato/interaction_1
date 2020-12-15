@@ -956,37 +956,37 @@ PrefabInstance:
     - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.11792
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2936198
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6904297
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.17364816
       objectReference: {fileID: 0}
     - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9848078
       objectReference: {fileID: 0}
     - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
@@ -1006,12 +1006,22 @@ PrefabInstance:
     - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6666667
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316147746137919563, guid: e6220169d8ade024db351e507eb12795,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4597208569379129504, guid: e6220169d8ade024db351e507eb12795,
         type: 3}
