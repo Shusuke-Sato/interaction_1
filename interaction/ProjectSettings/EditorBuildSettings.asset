@@ -9,9 +9,33 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: 6797e09e9fff19e4daa3daba4321ad8c
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 366c72b6660fa4d4dab618f30c844501
+  - enabled: 0
     path: Assets/Scenes/dungeon_ver1.unity
     guid: d581ef35f97da4d44845d38bd36374c0
   - enabled: 1
+    path: Assets/Scenes/GameClear.unity
+    guid: 51c4e141150927a498a36400ba46c111
+  - enabled: 1
+    path: Assets/Scenes/Complete.unity
+    guid: 80507505bfa30a948a881abc9f6461b8
+  - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 492241334cebc6543af6dbefbb7b62cb
+  - enabled: 1
+    path: Assets/Scenes/Stage1.unity
+    guid: 40df3dc6e9f152549a1dc22340d66056
+  - enabled: 1
+    path: Assets/Scenes/Stage2.unity
+    guid: 657cc98baf42b9e46b8691424b7b0147
+  - enabled: 1
+    path: Assets/Scenes/Stage3.unity
+    guid: 7a78979d1722a9348af23996cb517299
+  - enabled: 1
+    path: Assets/Scenes/Stage4.unity
+    guid: 77ff62560cc15a74797974634d03709f
+  - enabled: 1
+    path: Assets/Scenes/Stage5.unity
+    guid: 435c51f655b565e4ca046de9daf16fc4
   m_configObjects: {}
