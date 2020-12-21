@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class GameSystem : MonoBehaviour
 {
-    public static int stageNo = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,39 +17,15 @@ public class GameSystem : MonoBehaviour
         
     }
 
-    public void StartStage1()
+    public void StartGame()
     {
-        stageNo = 1;
-        SceneManager.LoadScene("Tutorial");
-    }
-    public void StartStage2()
-    {
-        stageNo = 2;
-        SceneManager.LoadScene("Tutorial");
-    }
-    public void StartStage3()
-    {
-        stageNo = 3;
-        SceneManager.LoadScene("Tutorial");
-    }
-    public void StartStage4()
-    {
-        stageNo = 4;
-        SceneManager.LoadScene("Tutorial");
-    }
-    public void StartStage5()
-    {
-        stageNo = 5;
-        SceneManager.LoadScene("Tutorial");
-    }
-    public void Restart()
-    {
-        SceneManager.LoadScene("Tutorial");
+        SceneManager.LoadScene("dungeon_ver1");
     }
     public void EndGame()
     {
         SceneManager.LoadScene("Title");
     }
+<<<<<<< HEAD
     public void NextGame()
     {
         stageNo = stageNo + 1;
@@ -81,4 +56,7 @@ public class GameSystem : MonoBehaviour
                 break;
         }
     }
+=======
+
+>>>>>>> teraoka
 }
