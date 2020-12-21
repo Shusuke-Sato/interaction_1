@@ -80,6 +80,5 @@ public class GameSystem : MonoBehaviour
                 SceneManager.LoadScene("Title");
                 break;
         }
-    }  
-
+    }
 }
