@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Clear : MonoBehaviour
 {
+    public GameSystem gamesystem;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +19,18 @@ public class Clear : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
+        int stageNo;
+        stageNo = GameSystem.stageNo;
         if(collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("GameClear");
+            if(stageNo == 5)
+            {
+                SceneManager.LoadScene("Complete");
+            }
+            else
+            {
+                SceneManager.LoadScene("GameClear");
+            }
         }
     }
 }
