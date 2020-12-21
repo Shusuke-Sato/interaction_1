@@ -43,9 +43,18 @@ public class GameSystem : MonoBehaviour
         stageNo = 5;
         SceneManager.LoadScene("Tutorial");
     }
+    public void Restart()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
     public void EndGame()
     {
         SceneManager.LoadScene("Title");
+    }
+    public void NextGame()
+    {
+        stageNo = stageNo + 1;
+        SceneManager.LoadScene("Tutorial");
     }
     public void DoneTutorial()
     {
